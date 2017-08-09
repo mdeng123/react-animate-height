@@ -28,7 +28,14 @@ h2, h3, h4 {
   max-width: 840px; }
 
 .buttons button {
-  margin-right: 5px; }
+  margin-right: 5px;
+  transition: all 0.1s;
+  background: #111; }
+  .buttons button:hover {
+    background: #ae1a14; }
+  .buttons button:focus {
+    background: #E9463F;
+    outline: none; }
 
 .demo {
   border: 2px solid #ddd; }
