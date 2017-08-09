@@ -1,8 +1,10 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var AnimateHeight = require('react-animate-height');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var Example = class extends React.Component {
+import AnimateHeight from '../source/index';
+import './docs.scss';
+
+const Example = class extends React.Component {
   constructor() {
     super();
 
